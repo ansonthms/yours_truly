@@ -1,0 +1,235 @@
+html{
+  scroll-behavior: smooth; 
+}
+
+@font-face {
+  font-family: header-font;
+  src: url(../assets/Forum-Regular.ttf);
+}
+
+@font-face {
+  font-family: text-font;
+  src: url(../assets/Lato-Regular.ttf);
+}
+
+html, body {
+    margin:0;
+    height:100%;
+    //overflow:hidden;
+  }
+
+.scroll-text{
+  color: hsla(0, 0%, 0%, 0.438);
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: text-font;
+}
+
+.arrow-flex{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.about_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_text{
+  font-family: text-font;
+  text-align: center;
+  width: 80%;
+}
+
+.links{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+  -webkit-tap-highlight-color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem ;
+    position: sticky;
+    top: 0;
+}
+
+.nav_list {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: d;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ff0000;
+    border-radius: 2rem; 
+}
+
+.list_items{
+    padding: 0.35rem ;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.intro-flex{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    //gap: 2%;
+    padding: 0%;
+    justify-content: space-between;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.hi{
+    align-self: right;
+}
+
+.name{
+    font-size: 2rem;
+}
+
+.app{
+   
+}
+
+.mug-header{
+    //position: relative;
+    //width: 20%;
+    //padding: 5% 15%;
+    //justify-content: flex-start;
+}
+
+.flex{
+    padding: 9% 12%;
+}
+
+.mug{
+   //border-radius: 50%;
+   //overflow: hidden;
+   //object-fit: contain;
+   //max-width: 100%;
+   //height: auto;
+   //object-fit: contain;
+   width: 15%;
+   height: auto
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+  
+  .arrows path {
+    stroke: #0a0d0e;
+    fill: transparent;
+    stroke-width: 2px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
+
+.header1{
+  font-family: header-font;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+      
+}
+
+.header2{
+  font-family: header-font;
+  font-size: 3.5rem;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  
+}
+
+.elegantshadow {
+  color: #131313;
+  background-color: #e7e5e4;
+  letter-spacing: .15em;
+  text-shadow: 
+    1px -1px 0 #767676, 
+    -1px 2px 1px #737272, 
+    -2px 4px 1px #767474, 
+    -3px 6px 1px #787777, 
+    -4px 8px 1px #7b7a7a, 
+    -5px 10px 1px #7f7d7d, 
+    -6px 12px 1px #828181, 
+    -7px 14px 1px #868585, 
+    -8px 16px 1px #8b8a89, 
+    -9px 18px 1px #8f8e8d, 
+    -10px 20px 1px #949392, 
+    -11px 22px 1px #999897, 
+    -12px 24px 1px #9e9c9c, 
+    -13px 26px 1px #a3a1a1, 
+    -14px 28px 1px #a8a6a6, 
+    -15px 30px 1px #adabab, 
+    -16px 32px 1px #b2b1b0, 
+    -17px 34px 1px #b7b6b5, 
+    -18px 36px 1px #bcbbba, 
+    -19px 38px 1px #c1bfbf, 
+    -20px 40px 1px #c6c4c4, 
+    -21px 42px 1px #cbc9c8, 
+    -22px 44px 1px #cfcdcd, 
+    -23px 46px 1px #d4d2d1, 
+    -24px 48px 1px #d8d6d5, 
+    -25px 50px 1px #dbdad9, 
+    -26px 52px 1px #dfdddc, 
+    -27px 54px 1px #e2e0df, 
+    -28px 56px 1px #e4e3e2;
+}
+   
+.skill_box{
+    display: flex;    
+}

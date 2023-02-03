@@ -1,0 +1,15 @@
+.footer-flex{
+   display: flex;
+   flex-direction: row;
+}
+
+.footer-left{
+            width: 50%;
+            color: grey;
+}
+
+.footer-right{
+            width: 50%;
+            //text-align: right;
+            color: grey;
+}
