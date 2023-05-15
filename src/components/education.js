@@ -10,15 +10,7 @@ function Education() {
   
   <ul class="timeline">
 
-      <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
-            <span class="flag">Ph.D.</span>
-            <span class="time-wrapper"><span class="time">2022 - present</span></span>
-          </div>
-          <div class="desc">Currently pursuing Ph.D. with <b>Prime Minister Research Fellowship (Direct Entry, May 2022)</b> under <i>Dr. Puneet Gupta </i> at <i> Department of Chemistry, IIT Roorkee</i></div>
-        </div>
-      </li>
+      
 
       <li>
         <div class="direction-l">

@@ -14,15 +14,13 @@ function Intro() {
             <img src={mug} className='mug' />
           </div>
           
-          <h1 class="twister">
+          <h1>
             <div className='name'> Anson Thomas</div>
           </h1>            
           <div className='scroll-text'>Computational Material Scientist</div>
-          <div className='scroll-text'>Prime Minister Research Fellow</div>
-          <div className='scroll-text'>Indian Institute of Technology, Roorkee</div>
           <br />
           <center>
-            <a href="mailto:ansonthmsiitr@gmail.com" className='links'><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="mailto:thomasanson53@gmail.com" className='links'><i class="fa fa-envelope fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/ansonthms/"  className='links'><i class="fa fa-linkedin fa-2x"></i></a>
             <a href="https://join.skype.com/invite/xoJ8bEJYRnKI/" className='links'><i class="fa fa-skype fa-2x"></i></a>
             <a href="https://github.com/ansonthms" className='links'><i class="fa fa-github fa-2x"></i></a>          

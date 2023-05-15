@@ -11,17 +11,6 @@ export default function Experience() {
   <ul class="timeline">
 
       <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
-            <span class="flag">Project</span>
-            <span class="time-wrapper"><span class="time">July 2022-Present</span></span>
-          </div>
-          <div class="desc"><b>A Density Functional study to remove heavy metals from water</b></div>
-          <div class="desc">Computational Catalysis Center, IIT Roorkee</div>
-        </div>
-      </li>
-
-      <li>
         <div class="direction-l">
           <div class="flag-wrapper">
             <span class="flag">Project</span>

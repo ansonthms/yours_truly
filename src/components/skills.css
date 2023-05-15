@@ -95,13 +95,13 @@ table {
 .lmp
 {
     height: 3px;
-    background: -webkit-linear-gradient(left, #2F2727 60%, #cbd1d8 60%);
+    background: -webkit-linear-gradient(left, #2F2727 40%, #cbd1d8 40%);
 }
 
 .gmx
 {
     height: 3px;
-    background: -webkit-linear-gradient(left, #2F2727 50%, #cbd1d8 50%);
+    background: -webkit-linear-gradient(left, #2F2727 40%, #cbd1d8 40%);
 }
 
 .orca

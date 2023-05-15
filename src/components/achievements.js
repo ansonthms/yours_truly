@@ -36,7 +36,7 @@ function Achievements() {
 
       <tr>
          <td><img src={pmrf} alt="" /></td>
-         <td>Selected for the prestigious <b>Prime Minister Research Fellowship</b> via <i>Direct Entry in May 2022 Cycle (Cycle 9)</i></td>        
+         <td>Selected for the most prestigious fellowship to pursue Ph.D. in India, the <b>Prime Minister Research Fellowship</b> via <i>Direct Entry in May 2022 Cycle (Cycle 9)</i>; declined</td>        
       </tr>
 
       <tr>

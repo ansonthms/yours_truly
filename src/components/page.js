@@ -12,7 +12,7 @@ function Page() {
     <div className='header2'><div className='elegantshadow'>Focus Areas</div></div>
     <div className='about_container'>
     <div className='about_text'>Corrosion, Homogeneous and Hetrogeneous Catalysis</div>
-    <div className='about_text'>Density Functional Theory, Molecular Dynamics, Monte Carlo, Scripting and Programming</div>
+    <div className='about_text'>Density Functional Theory, Molecular Dynamics, Scripting and Programming</div>
     </div>
    </> 
 
